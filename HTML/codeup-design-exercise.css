@@ -106,8 +106,8 @@ h2{
 /*}*/
 
 .circle{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
@@ -136,7 +136,8 @@ h2{
     /*flex-wrap: nowrap;*/
     /*justify-content: space-evenly;*/
 }
-@media screen and (min-width: 576px) {
+
+@media screen and (min-width: 768px) {
     .container {
         max-width:540px;
     }
@@ -171,5 +172,14 @@ h2{
         gap: 1rem;
         grid-auto-flow: column;
     }
+    @media screen and (min-width: 550px) {
+        .img{
+            max-width: 100%;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
 
+        }
+    }
 }
