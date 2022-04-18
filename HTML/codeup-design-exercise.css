@@ -32,9 +32,9 @@ hr {
 }
 .circlePlace{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    /*justify-content: center;*/
+    /*align-content: normal;*/
     flex-direction: row;
     /*flex-wrap: wrap;*/
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
 }
