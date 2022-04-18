@@ -1,0 +1,40 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    /*-webkit-border-radius: 100px;*/
+    /*-moz-border-radius: 100px;*/
+    border-radius: 50%;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    border: solid white 10px;
+}
+.circleRed{
+    background-color: #e6563b;
+}
+.circleOrange{
+    background-color: #eb9d3a;
+}
+.circleGreen{
+    background-color: #7cb06c;
+}
+.circleTeal{
+    background-color: #00aba9;
+}
+/*.dot {*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background-color: #bbb;*/
+/*    border-radius: 50%;*/
+/*    display: inline-block;*/
+/*}*/
+hr {
+    color: black;
+}
+.circlePlace{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: space-evenly;
+}
