@@ -86,7 +86,7 @@
 
 body{
     font-family: 'Anton', sans-serif;
-    background-color: #FFFBF1;
+    background-color: #f0f0f0;
 
 }
 h1{
@@ -136,6 +136,35 @@ h2{
     /*flex-wrap: nowrap;*/
     /*justify-content: space-evenly;*/
 }
+.mini-circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    color: black;
+    font-size: 10px;
+}
+.card-footer{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1em;
+}
+.parent-card{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-self: center;*/
+    /*flex-direction: column;*/
+}
+#apple, #man, #security, #macbook {
+
+    border: solid lightgray 10px;
+    border-radius: 5px;
+    width: 350px;
+
+}
+.para{
+    font-family: 'Abel', sans-serif;
+
+}
 
 @media screen and (min-width: 768px) {
     .container {
@@ -172,6 +201,13 @@ h2{
         gap: 1rem;
         grid-auto-flow: column;
     }
+
+    /*.feature{*/
+    /*display: flex;*/
+    /*align-content: center;*/
+    /*justify-content: center;*/
+
+    /*}*/
     @media screen and (min-width: 550px) {
         .img{
             max-width: 100%;
