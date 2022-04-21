@@ -194,6 +194,14 @@ h5{
     /*width: 300px;*/
     /*height: 300px;*/
 }
+.new-font{
+    font-size: 12px;
+    font-family: 'Abel', sans-serif;
+}
+.new{
+    font-size: 12px;
+    font-family: 'Abel', sans-serif;
+}
 /*.card{*/
 /*    display: flex;*/
 /*}*/
